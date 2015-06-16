@@ -1,5 +1,5 @@
 default:
-	mkdir -p bin && g++ -pthread -std=c++11 main.cpp -o bin/tp1 && ./bin/tp1
+	mkdir -p bin && g++ main.cpp -o bin/tp1 && ./bin/tp1
 	
 run:
-	mkdir -p bin && g++ -pthread -std=c++11 main.cpp -o bin/tp1 && ./bin/tp1
+	mkdir -p bin && g++ main.cpp -o bin/tp1 && ./bin/tp1
